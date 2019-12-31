@@ -1,4 +1,4 @@
-FROM python:3.7.5-alpine
+FROM python 
 MAINTAINER Aditya Inapurapu adityaii@gmail.com
 RUN mkdir -p /usr/src/app && pip install Image text-to-image
 EXPOSE 8080
